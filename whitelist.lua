@@ -8,4 +8,4 @@ whitelist = {
     ["Prvbably"] = 587163717, -- cool name
     ["Voyqi"] = 2255706751, -- cool name
 }
-return whtelist
+return whitelist
