@@ -1,3 +1,5 @@
+-- // this works on all games btw, not just da hood
+
 _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
 
