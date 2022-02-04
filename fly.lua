@@ -1,6 +1,6 @@
--- FlySpeed
+FLYSPEED = 15
 
-FLYSPEED = 10
+-- ok
 
 local plr = game.Players.LocalPlayer
 local Humanoid = plr.Character:FindFirstChildWhichIsA('Humanoid')
