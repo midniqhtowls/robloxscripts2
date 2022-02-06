@@ -1,5 +1,3 @@
-FLYSPEED = 15
-
 -- ok
 
 local plr = game.Players.LocalPlayer
