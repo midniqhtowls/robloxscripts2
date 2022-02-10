@@ -4,5 +4,6 @@ whitelist = {
     [1344373244] = true, -- grontrow [friend]
     [2487262794] = true, -- InactiveCalls [tester]
     [2315404251] = true, -- Devilpathsfan [tester]
+    [247880521] = true, -- ball
 }
 return whitelist
