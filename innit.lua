@@ -6,5 +6,6 @@ whitelist = {
     ["DavidAtkinson88"] = 243100005,
     ["dmyzy"] = 1366200493,
     ["MrCupcake_victor"] = 1584233795,
+    ["CurtisLopez16"] = 242897538,
 }
 return whitelist
