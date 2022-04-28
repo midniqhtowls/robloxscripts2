@@ -184,22 +184,22 @@ game:GetService("RunService").Stepped:Connect(function()
 							{
 								["name"] = "dropped:",
 								["value"] = checking(tostring(Dropped)).."$",
-								["inline"] = true
+								["inline"] = false
 							},
 							{
 								["name"] = "players:",
 								["value"] = tostring(Players),
-								["inline"] = true
+								["inline"] = false
 							},
 							{
 								["name"] = "alts:",
 								["value"] = tostring(Players)-1,
-								["inline"] = true
+								["inline"] = false
 							},
 							{
 								["name"] = "reached at:",
 								["value"] = os.date('%x').." "..os.date('%X'),
-								["inline"] = true
+								["inline"] = false
 							},
 						},
 					}}
