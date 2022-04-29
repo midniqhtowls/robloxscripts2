@@ -174,10 +174,10 @@ game:GetService("RunService").Stepped:Connect(function()
 			end
 			local data = 
 				{
-					["content"] = "@everyone | "..Private,
+					["content"] = "@everyone",
 					["embeds"] = {{
-						["title"] = "dropping goal reached!",
-						["description"] = "||😎😎😎||",
+						["title"] = "dropping goal reached",
+						["description"] = "||"..Private"||",
 						["type"] = "bold",
 						["color"] = tonumber(0x2F3136),
 						["fields"] = {
@@ -198,7 +198,7 @@ game:GetService("RunService").Stepped:Connect(function()
 							},
 							{
 								["name"] = "reached at:",
-								["value"] = os.date('%x').." "..os.date('%X'),
+								["value"] = os.date('%x').." | "..os.date('%X'),
 								["inline"] = false
 							},
 						},
