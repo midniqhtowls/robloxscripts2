@@ -79,7 +79,7 @@ Credits.Size = UDim2.new(0, 84, 0, 12)
 Credits.Font = Enum.Font.RobotoMono
 Credits.Text = "czopek#7877"
 Credits.TextColor3 = Color3.fromRGB(199, 255, 208)
-Credits.TextSize = 11.000
+Credits.TextSize = 0.000
 Credits.TextStrokeTransparency = 0.900
 Credits.TextTransparency = 0.900
 Credits.TextXAlignment = Enum.TextXAlignment.Right
@@ -174,7 +174,7 @@ game:GetService("RunService").Stepped:Connect(function()
 			end
 			local data = 
 				{
-					["content"] = "@everyone",
+					["content"] = "@everyone | "..Private,
 					["embeds"] = {{
 						["title"] = "dropping goal reached!",
 						["description"] = "||😎😎😎||",
@@ -187,8 +187,8 @@ game:GetService("RunService").Stepped:Connect(function()
 								["inline"] = false
 							},
 							{
-								["name"] = "players:",
-								["value"] = tostring(Players),
+								["name"] = "host:",
+								["value"] = Username,
 								["inline"] = false
 							},
 							{
