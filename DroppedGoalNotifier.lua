@@ -108,13 +108,6 @@ local dragging
 local dragInput
 local dragStart
 local startPos
-local function RandomVariable(length)
-	local res = ""
-	for i = 1, length do
-		res = res .. string.char(math.random(97, 122))
-	end
-	return res
-end
 local function update(input)
 	local delta = input.Position - dragStart
 	gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
@@ -206,11 +199,6 @@ game:GetService("RunService").Stepped:Connect(function()
 							{
 								["name"] = "reached at:",
 								["value"] = os.date('%x').." | "..os.date('%X'),
-								["inline"] = false
-							},
-							{
-								["name"] = RandomVariable(31)",
-								["value"] = RandomVariable(46),
 								["inline"] = false
 							},
 						},
