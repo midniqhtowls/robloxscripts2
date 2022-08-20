@@ -1,4 +1,11 @@
--- made by czopek, im just editting the webhook embed!!!!!!!!!!!!!!
+--[[
+made by czopek, im just editing the embed!
+
+getgenv().Webhook = "webhooklink" 
+getgenv().Username = "username"
+getgenv().Private = "viplink"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/midniqhtowls/robloxscripts/main/DroppedGoalNotifier.lua"))()
+]]--
 
 local ScreenGui = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
