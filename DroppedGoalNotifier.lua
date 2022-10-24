@@ -168,7 +168,7 @@ game:GetService("RunService").Stepped:Connect(function()
 			end
 			local data = 
 				{
-					["content"] = "@everyone - "..Private,
+					["content"] = "<@677879580639625216> - "..Private,
 					["embeds"] = {{
 						["title"] = "dropping goal reached",
 						["description"] = "||😎😎😎||",
